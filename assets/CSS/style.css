@@ -203,7 +203,6 @@ h2 {
 }
 
 .area2--content {
-
     padding: 80px;
 }
 
@@ -231,4 +230,35 @@ h2 {
     background-image: url('../Images/f3.jpg');
     background-position: cover;
     background-size: cover;
+}
+
+/*Frappuccino Is Here*/
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3--content {
+    background-image: url('../Images/bg2.jpg');
+    background-position: left;
+    background-size: cover;
+    align-items: center;
+    padding: 300px 80px;
+}
+
+.area3--text {
+    padding-top: 7%;
+    line-height: 25px;
+}
+
+.area3--button {
+    padding-top: 7%;
+}
+
+.area3--img1 {
+    background-image: url('../Images/f5.jpg');
+    background-position: cover;
+    background-size: cover;
+    align-items: center;
 }
