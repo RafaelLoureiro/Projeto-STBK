@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+header {
+    padding-bottom: 7%;
+}
+
 header .line {
     background-color: #117050;
     height: 10px;
@@ -60,6 +64,7 @@ h2 {
 
 /*base 1720-720 style*/
 .container {
+    padding: 5%;
     max-width: 1140px;
     margin: auto;
 }
@@ -129,7 +134,7 @@ h2 {
     background-position: center;
     background-size: cover;
     padding-top: 90px;
-    padding-bottom: 350px;
+    padding-bottom: 90px;
 }
 
 
