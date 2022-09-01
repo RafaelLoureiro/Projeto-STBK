@@ -217,7 +217,7 @@ h2 {
 
 .area2--img1 {
     background-color: green;
-    height: 600px;
+    height: 700px;
     background-image: url('../Images/f4.jpg');
     background-position: cover;
     background-size: cover;
@@ -260,6 +260,7 @@ h2 {
 
 .area3--img1 {
     background-image: url('../Images/f5.jpg');
+    height: 900px;
     background-position: cover;
     background-size: cover;
     align-items: center;
@@ -285,8 +286,10 @@ h2 {
 }
 
 .area4--img1 {
+
     background-image: url('../Images/bg3.jpg');
-    background-position: left;
+    background-position: center;
+
 }
 
 .area4--button {
@@ -318,7 +321,7 @@ footer {
 
 
 
-@media(min-width: 769) and (max-width: 1024px) {
+@media(max-width: 1024px) {
     .container {
         padding-left: 20px;
         padding-right: 20px;
@@ -455,8 +458,9 @@ footer {
         width: 70px;
         border: 3px solid #117050;
         border-radius: 50%;
-        margin-right: 20px;
+        margin-right: 10px;
     }
+
 
     .area1,
     .area2,
@@ -492,6 +496,12 @@ footer {
 
     }
 
+    .area3--img1 {
+        background-position: center;
+        height: 400px;
+
+    }
+
     .area5--img1 {
 
         height: 200px;
@@ -510,13 +520,5 @@ footer {
     footer {
         font-size: 12px;
         padding: 40px 20px;
-    }
-}
-
-@media (max-width: 320) {
-    .button:hover {
-        color: #fff;
-        background-color: #454545;
-
     }
 }
