@@ -178,7 +178,7 @@ h2 {
 
 .area1--img1 {
     background-color: green;
-    height: 500px;
+    height: 300px;
     background-image: url('../Images/f2.jpg');
     background-position: center;
     background-size: cover;
@@ -231,6 +231,7 @@ h2 {
     background-image: url('../Images/f3.jpg');
     background-position: center;
     background-size: cover;
+    padding: 300px 80px;
 }
 
 /*Frappuccino Is Here*/
@@ -307,4 +308,215 @@ footer {
     color: #fff;
     padding: 80px;
     text-align: center;
+}
+
+
+
+
+/**/
+
+
+
+
+@media(min-width: 769) and (max-width: 1024px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        padding-bottom: 9%;
+    }
+
+    .button:hover {
+        color: #fff;
+        background-color: #454545;
+
+    }
+
+    .area1--img1 {
+        height: 300px;
+    }
+
+    .area2--img1 {
+
+        height: 300px;
+
+    }
+
+    .area5--img1 {
+
+        height: 500px;
+    }
+
+    .area3--content {
+
+        padding: 200px 30px;
+    }
+
+    .area2--img2 {
+
+        padding: 200px 30px;
+    }
+}
+
+
+@media (min-width: 426)and(max-width: 769px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        padding-bottom: 10%;
+    }
+
+    .button:hover {
+        color: #fff;
+        background-color: #454545;
+
+    }
+
+    .area1--img1 {
+        height: 235px;
+    }
+
+    .area2--img1 {
+
+        height: 300px;
+
+    }
+
+    .area5--img1 {
+
+        height: 400px;
+    }
+
+    .area3--content {
+
+        padding: 200px 20px;
+    }
+
+    .area2--img2 {
+
+        padding: 200px 20px;
+    }
+
+    .area1 {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .area2 {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .area3 {
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .button:hover {
+        color: #fff;
+        background-color: #454545;
+
+    }
+
+    header {
+        padding-bottom: 25%;
+    }
+
+    .header--menu {
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .header--search input {
+        max-width: 120px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .banner--images img {
+        height: 70px;
+        width: 70px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 30px;
+    }
+
+
+
+    .area2 {
+        grid-template-columns: 1fr;
+    }
+
+    .area3 {
+        grid-template-columns: 1fr;
+    }
+
+    .area1--img1 {
+        height: 235px;
+    }
+
+    .area2--img1 {
+
+        height: 300px;
+
+    }
+
+    .area5--img1 {
+
+        height: 200px;
+    }
+
+    .area3--content {
+
+        padding: 200px 20px;
+    }
+
+    .area2--img2 {
+
+        padding: 200px 20px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 320) {
+    .button:hover {
+        color: #fff;
+        background-color: #454545;
+
+    }
 }
